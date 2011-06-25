@@ -53,6 +53,7 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
+NSLog(@"verandering");
 }
 
 - (void)didReceiveMemoryWarning
