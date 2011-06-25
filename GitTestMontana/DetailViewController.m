@@ -43,7 +43,8 @@
 
     if (self.popoverController != nil) {
         [self.popoverController dismissPopoverAnimated:YES];
-    }        
+    }
+    NSLog(@"bladiebla");
 }
 
 - (void)configureView
